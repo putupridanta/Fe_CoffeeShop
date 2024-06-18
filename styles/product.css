@@ -13,9 +13,6 @@ body{
     width: 100%;
     height: 300px;
 }
-.main-item{
-    /* height: 1000px; */
-}
 .top-bg{
     width: 100%;
     height: 305px;
@@ -95,7 +92,6 @@ body{
     flex: 1;
 }
 input[type=checkbox]{
-    /* opacity: 0; */
     margin-right: 5px;
     width: 25px;
     height: 25px;
