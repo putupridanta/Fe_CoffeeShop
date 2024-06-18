@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+}
+.promo{
+    width: 100%;
+    height: 300px;
+}
+.main-item{
+    /* height: 1000px; */
+}
+.top-bg{
+    width: 100%;
+    height: 305px;
+    background-image: url(/public/assets/img-product/bg-p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-bg h1{
+    color: white;
+    position: relative;
+    top: 100px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.item-promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 80px;
+}
+
+.item-promo h1{
+    font-size: 42px;
+    font-weight: 500;
+}
+.item-promo span{
+    color: #8E6447;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.button1 button{
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    background-color: #E8E8E8;
+    border: none;
+    cursor: pointer;
+}
+
+.button1 button:hover{
+    background-color: #FF8906;
+}
+.text-l h1{
+    padding: 50px 80px;
+    font-size: 42px;
+    font-weight: 500;
+}
+.text-l span{
+    color: #8E6447;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 150px;
+}
+.box-f{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 700px;
+    width: 400px;
+    background-color: #0B0909;
+    border: none;
+    gap: 20px;
+    border-radius: 15px;
+    color: white;
+    flex: 1;
+}
+input[type=checkbox]{
+    /* opacity: 0; */
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.card-items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.card img{
+    width: 60px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    gap: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #88B788;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card span{
+    color: white;
+}
+.box-f div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-f div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-f div:nth-child(2) input[type=search]{
+    height: 54px;
+    border-radius: 5px;
+}
+.box-f div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box-f div:nth-child(4){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box-f div:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box-f div:nth-child(6) button{
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    background-color: #FF8906;
+    cursor: pointer;
+}
+.box-column{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 1800px;
+    flex: 3;
+}
+.box-items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* background-color: #FF8906; */
+    /* padding: 10px; */
+}
+.box-img{
+    width: 357px;
+    height: 340px;
+    border: 1px solid black;
+}
+.box-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -20px;
+    top: -50px;
+    border: none;
+    padding-top: 10px;
+    gap: 15px;
+    padding: 0px 10px;
+    width: 320px;
+    height: 240px;
+    background-color: white;
+}
+.text-1 p{
+    text-align: left;
+    text-decoration: line-through red;
+}
+.text-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button3 button{
+    border-radius: 50%;
+    position: relative;
+    left: -90px;
+    top: -30px;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    background-color: #E8E8E8;
+    border: none;
+    cursor: pointer;
+}
+.button3 button:hover{
+    background-color: #FF8906;
+    border: none;
+    cursor: pointer;
+}
+
+.button2 button:nth-child(1){
+    width: 150px;
+    height: 30px;
+    flex: 3;
+    background-color: #FF8906;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button2 button:nth-child(2){
+    width: 50px;
+    height: 30px;
+    flex: 1;
+    background-color: white;
+    border: 1px solid #FF8906;
+    background-image: url(/public/assets/img-icon/ShoppingCart1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
